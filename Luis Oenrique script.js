@@ -10,12 +10,12 @@ const service = document.querySelector("a[href='#service']");
 const portfolio = document.querySelector("a[href='#portfolio']");
 // const contact = document.querySelector("a[href='#contact']");
 
-function scrollArticle() {
+function scrollKnowMore() {
   articleKnowMore.scrollIntoView({ block: "center", behavior: "smooth" });
 }
 
-btnKnowMore.addEventListener("click", scrollArticle);
-about.addEventListener("click", scrollArticle);
+btnKnowMore.addEventListener("click", scrollKnowMore);
+about.addEventListener("click", scrollKnowMore);
 
 function scrollService() {
   articleService.scrollIntoView({ block: "center", behavior: "smooth" });
